@@ -1,0 +1,3 @@
+[submodule "VPN"]
+	path = VPN
+	url = https://github.com/maemune/VPN.git
