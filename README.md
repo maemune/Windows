@@ -34,10 +34,12 @@ git clone --recursive [https://github.com/maemune/Windows.git](https://github.co
 cd Windows
 すでにクローン済みの場合は、以下のコマンドでサブモジュールを更新できます。
 
-Bash
-
-git submodule update --init --recursive
 🤝 貢献と協力
 このプロジェクトは、Windows環境をより良くするための貢献を歓迎します！
 
 新しいツールの提案、既存コードの改善、バグ報告など、どのような形でもご協力をお待ちしております。
+
+
+Bash
+git add . && git commit -m "commit" && git push origin master
+git submodule update --init --recursive
