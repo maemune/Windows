@@ -42,6 +42,7 @@ cd Windows
 
 Bash
 git add . && git commit -m "commit" && git push origin master
+git checkout master && git pull origin master
 
 cd /#####/#####/#####
 git submodule add https://github.com/maemune/#####.git #####
