@@ -1,3 +1,6 @@
+[submodule "modules/library"]
+    path = modules/library
+    url = https://github.com/your-user/child-repo.git
+    branch = master
 [submodule "VPN"]
-	path = VPN
-	url = https://github.com/maemune/VPN.git
+	branch = master
