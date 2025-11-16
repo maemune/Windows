@@ -42,4 +42,13 @@ cd Windows
 
 Bash
 git add . && git commit -m "commit" && git push origin master
+
+cd /#####/#####/#####
+git submodule add https://github.com/maemune/#####.git #####
+git config -f .gitmodules submodule.#####.branch master
+git add .gitmodules
+git commit -m "Set submodule 'library' to track master branch"
+git push origin master
+git submodule update --remote
+
 git submodule update --init --recursive
