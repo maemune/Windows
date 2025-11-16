@@ -4,3 +4,6 @@
     branch = master
 [submodule "VPN"]
 	branch = master
+[submodule "Network_Diagnostics"]
+	path = Network_Diagnostics
+	url = https://github.com/maemune/Network_Diagnostics.git
