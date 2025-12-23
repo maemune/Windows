@@ -14,7 +14,7 @@ echo TARGET: %TARGET%
 echo ======================================================
 echo.
 
-for /l %%i in (1,1,3) do (
+for /l %%i in (1,1,2) do (
     set /a "RND=!random! %% 900 + 100"
     
     echo [Step %%i/3] Please type the security code to proceed.
